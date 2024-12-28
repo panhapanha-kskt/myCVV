@@ -1,0 +1,253 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Own CV</title>
+    <link rel="stylesheet" href="CV.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+  body {
+    background-color: burlywood;
+}
+.container{
+    background-color: lightblue;
+    display: flex;
+    gap : 5;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.block_left{
+    background-color: lightskyblue;
+    flex : 1;
+}
+.block_right{
+    background-color: pink;
+    flex : 2;
+    min-width: 200px;
+}
+.circle {
+    width: 300px;               /* Diameter of the circle */
+    height: 300px;              /* Diameter of the circle */
+    border: 5px solid black;  /* Border color and thickness */
+    border-radius: 50%;         /* Rounds the corners to make it a circle */
+    background-color: white;
+    margin-left: 21%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%; /* Background color of the circle */
+  }
+  .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the circle without distortion */
+}
+.p{
+    color: black;
+    font-size: 23px;
+    margin-left: 20px;
+    font-family: fantasy;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 20px;
+}
+.p1 {
+    color: black;
+    font-size: 23px;
+    margin-left: 20px;
+    font-family: fantasy;
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+.line {
+    height: 2px;               /* Thickness of the line */
+    background-color: black;    /* Color of the line */
+    width: 80%;                /* Width of the line */
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;         /* Space above and below the line */
+  }
+.h1{
+    font-size: 70px;
+    margin-left: 40px;
+}
+.name-container {
+
+    margin: 20px; /* Add some spacing around the container */
+}
+.name-container p{
+    font-size: 30px;
+}
+.name {
+    font-family: 'Arial', sans-serif; /* Choose a clear, readable font */
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+    color: black; /* Dark gray for better contrast */
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: black; /* Lighter gray for the title */
+    margin: 0;
+
+}
+.h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 25px;
+    color: black;
+    margin: 0;
+}
+.block_right p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    padding-left: 25px;
+    color: black;
+    margin: 0;
+}
+   @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .circle {
+                width: 150px;
+                height: 150px;
+            }
+            .p {
+                font-size: 14px;
+            }
+            .name {
+                font-size: 30px;
+            }
+            .title {
+                font-size: 18px;
+            }
+            .block_right p, .h3 {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .circle {
+                width: 120px;
+                height: 120px;
+            }
+            .p {
+                font-size: 12px;
+            }
+            .name {
+                font-size: 24px;
+            }
+            .title {
+                font-size: 16px;
+            }
+            .block_right p, .h3 {
+                font-size: 12px;
+            }
+        }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="block_left">
+            <div class="circle">
+                <img src="Screenshot%202024-05-26%20231406.png" alt="Profile Picture">
+            </div>
+            <div class="all-mail">
+                <p class="p">
+                    <i class="fa-solid fa-location-dot"></i><span style="padding-left: 10px;">Bavet, Svay Reing, Cambodia</span>
+                </p>
+                <p class="p">
+                    <i class="fa-solid fa-phone"></i> <span style="padding-left: 5px;">0969340194</span>
+                </p>
+                <p class="p">
+                    <i class="fa-regular fa-envelope"></i> <span style="padding-left: 5px;">PanhaLabormlou@gmail.com</span>
+                </p>
+                <p class="p">
+                    <i class="fa-solid fa-globe"></i> <span style="padding-left: 5px;">www.solostart.com</span>
+                </p>
+                <p class="p">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <span style="padding-left: 5px;">PanhaLabormlou</span>
+                </p>
+                <p class="p">
+                    <i class="fa-brands fa-instagram"></i><span style="padding-left: 10px;">t_t0_0t_t1</span>
+                </p>
+                <p class="p">
+                    <i class="fa-brands fa-threads"></i><span style="padding-left: 10px;">t_t0_0t_t1</span>
+                </p>
+                <p class="p">
+                    <i class="fa-brands fa-facebook"></i><span style="padding-left: 10px;">Panhaaa</span>
+                </p>
+                <p class="p">
+                    <i class="fa-brands fa-tiktok"></i> <span style="padding-left: 10px;">wasssuppppkitttyyy</span>
+                </p>
+            </div>
+            <div class="line"></div>
+            <div>
+                <p class="p"><span style="padding-right: 10px; font-size: 40px;">Education</span><i class="fa-solid fa-school fa-2xs" style="color: #e66a8f; font-size: 13px; font-size: 40px;"></i></p>
+                <p class="p">2011-2017 <span style="padding-left: 7px;">| Bavet Primary School</p></span>
+                <p class="p">2017-2023 <span style="padding-left: 3px;">| Bavet High School</p></span>
+                <p class="p">February 2024</p>
+                <p class="p">Bachelor of Cybersecurity</p>
+                <p class="p">Cambodia Academy of Digital Technology</p>
+                <p class="p">Phnom Penh, Cambodia</p>
+            </div>
+            <div class="line"></div>
+            <div>
+                <p class="p"><span style="padding-right: 10px; font-size: 40px;">Skills </span><i class="fa-solid fa-people-group" style="color: #e66a8f; font-size: 40px;"></i></p>
+                <p class="p">Creativity</p>
+                <p class="p">Communication</p>
+                <p class="p">Teamwork</p>
+                <p class="p">Leadership</p>
+                <p class="p">Problem Soving</p>
+                <p class="p">Sleeping</p>
+            </div>
+
+        </div>
+        <div class="block_right">
+            <div class="name-container">
+                <h1 class="name">Tith Sopanha</h1>
+                <p class="title">Panda Community</p>
+            </div>
+            <div class="line" style="background-color: black; margin-top: 50px;"></div>
+            <h3 class="h3" style="padding-bottom: 20px;"><span style="padding-right: 10px; font-size: 40px;">Summary Statement About Me</span></h3>
+            <p class="p">My Name is Tith Sopanha. I was born on 20 September 2006 at Bavet City Svay Reing Province.Now, I live in Phnom Penh
+                and currently I'm Studying at Cambodia Academy of Digital Techonology-CADT. I'm a student of Department Telecoms and Networking specialized
+                in Cybersecurity. Additionally, I have actively engaged in Volunteer that relates to Technology numerous times.
+            </p>
+            <div>
+                <div class="line" style="background-color: black; margin-top: 50px;"></div>
+                <h3 class="h3" style="padding-bottom: 20px; padding-top: 20px;"><span style="padding-right: 10px; font-size: 40px;">Experience</span></h3>
+                <h3 class="h3"><span style="padding-right: 10px; font-size: 40px;">Volunteer Experiencement</span></h3>
+                <p class="p">I had the privilege of volunteerin at the DIgital Government Forum that this event helded in Koh Pich,
+                    an event dedicated to exploring innovative stratgies and technologies transforming public services. It was
+                    an enriching experience to witness firsthand how digital advancements are reshaping governance, enhanching
+                    citizen engagment, and optimzing operational efficiency acrros various goverment sectors. I was volunteer around 2 days
+                    from 12 to 13 March 2024.
+                </p>
+                <div class="line" style="background-color: black; margin-top: 50px;"></div>
+                <h3 class="h3" style="padding-bottom: 20px;"><span style="padding-right: 10px; font-size: 40px;">Work Experience</span></h3>
+                <p class="p">My tenure at Cisco was a transformative experience that significantly shaped my career trajectory. As a Project and Program Management, I was immersed in a dynamic environment where innovation and technological advancement were at the forefront. I had the privilege of working on cutting-edge projects, such as Configuration Task and Task Routing, which allowed me to apply theoretical knowledge to real-world challenges.
+
+                    Cisco's commitment to fostering professional growth was evident through its comprehensive training programs and mentorship opportunities. I was encouraged to pursue certifications like the CCNA and CCNP, which significantly enhanced my technical expertise. The collaborative culture at Cisco enabled me to work alongside brilliant minds, learn from seasoned professionals, and contribute to groundbreaking solutions.
+
+                    Beyond technical skills, I developed strong interpersonal and communication abilities through team projects and client interactions. Cisco's emphasis on diversity and inclusion fostered a supportive and inclusive work environment, where I could freely share ideas and collaborate with colleagues from diverse backgrounds.</p>
+            </div>
+            <div class="line" style="background-color: black; margin-top: 50px;"></div>
+            <div>
+                <h3 class="h3" style="padding-bottom: 20px;"><span style="padding-right: 10px; font-size: 40px;">Language</span><i class="fa-solid fa-language" style="color: #e66a8f; font-size: 40px;"></i></h3>
+                <p class="p"><i class="fa-solid fa-hippo" style="color: #b22470;"></i><span style="padding-left: 10px;">Khmer</span></p>
+                <p class="p"><i class="fa-solid fa-bug" style="color: #ee0000;"></i><span style="padding-left: 15px;">English</span></p>
+            </div>
+
+    </div>
+</body>
+</html>
